@@ -25,9 +25,11 @@ class BooksController extends Controller
     public function getBook($id)
     {
         $id_book = Book::find($id);
+        $message_success = array('message' => "show book by id",'data' => json_decode($id_book));
+        $message_error = array('message' => "book not found");
         if (!$id_book) {
-            return response("Book Not Found", 404);
+            return response(json_encode($message_error), 404);
         }
-        return response(json_encode($id_book), 200);
+        return response(json_encode($message_success), 200);
     }
 }

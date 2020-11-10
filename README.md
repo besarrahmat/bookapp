@@ -1,7 +1,6 @@
 # BookApp Mini Project
 
-Nama : Besar Rachmat Ikhsan Pambudi
-NIM  : 185150701111005
+Besar Rachmat Ikhsan Pambudi / 185150701111005
 
 1. Buat project baru melalui composer
 2. Buat database bookapp_lumen

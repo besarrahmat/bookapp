@@ -26,3 +26,19 @@ $router->get('/key', function () {
 $router->get('/books', 'BooksController@index');
 
 $router->get('/books/{id}', 'BooksController@getBook');
+
+$router->post('/books', 'BooksController@store');
+
+$router->put('/books/{id}', 'BooksController@update');
+
+$router->delete('/books/{id}', 'BooksController@destroy');
+
+$router->get('/author', 'AuthorController@index');
+
+$router->get('/author/{id}', 'AuthorController@getAuthor');
+
+$router->post('/author', 'AuthorController@postAuthor');
+
+$router->put('/author/{id}', 'AuthorController@putAuthor');
+
+$router->delete('/author/{id}', 'AuthorController@deleteAuthor');

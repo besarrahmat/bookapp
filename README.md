@@ -1,6 +1,6 @@
-# BookApp Mini Project
-
 Besar Rachmat Ikhsan Pambudi / 185150701111005
+
+# BookApp Mini Project
 
 1. Buat project baru melalui composer
 2. Buat database bookapp_lumen
@@ -19,3 +19,9 @@ Besar Rachmat Ikhsan Pambudi / 185150701111005
 15. Buat route baru pada web.php
 16. Jalankan projek dengan command "php -S localhost:8000 -t public"
 17. Tes projek pada insomnia
+
+# Challenge
+
+1. Buat CRUD untuk BookApp
+2. Buat tabel Author
+3. Buat CRUD untuk Author
